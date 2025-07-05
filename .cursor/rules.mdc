@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Technical Specification and Tech Stack
+
+# General rules
+- Before running any series of command, refresh your memory on the current folder by running `pwd`.
+- Always ask if the tool is not explicitly listed here. Never assume it's ok to use a library or technology
+
+# Technologies
+- No emojis EVER. You will use Lucide React for icons instead.
+- Next.js 15 + TypeScript
+  - SSR for good SEO especially on the landing page and event pages
+- React form hook for anything forms
+- Always use PNPM/PNPX. NEVER use yarnx, yarn, npm or npx.
+- UI must use ShadCN. NEVER assume that a component is installed. Instead, scan @components/ui and check. If it's not installed, then you can install it.
+- Framer motion for animation. Do not over use, but do use to create a more SLEEK experience.
