@@ -22,7 +22,7 @@ export default function DenverPlumbingPage() {
           <h1 className="text-5xl font-bold mb-6">Denver's Trusted Plumbing Experts</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Licensed, bonded, and insured plumbers serving Denver and surrounding areas. 
-            Emergency services available 24/7.
+            Emergency services available 24/7....
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:720-555-0123" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center space-x-2">
